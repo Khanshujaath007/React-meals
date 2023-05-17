@@ -1,0 +1,43 @@
+/* .amount{
+  
+} */
+
+.amount span {
+  font-size: medium;
+  font-weight: 700;
+  flex: auto;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+}
+
+.amount input {
+  block-size: 22px;
+  inline-size: 30px;
+  font-size: medium;
+  font-weight: 400;
+  color: antiquewhite;
+  box-shadow: none;
+  border: none;
+  border-radius: 6px;
+  background-color:  rgb(31, 31, 31);
+
+}
+
+.amount button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .amount button:hover {
+    background-color: #c62828;
+  }
+  

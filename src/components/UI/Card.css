@@ -1,0 +1,28 @@
+.card {
+  width: 540px;
+  height: 160px;
+  margin: 25px;
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* transition: width 2s linear 1s; */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card h3 {
+  font-size: 24px;
+  text-align: center;
+  margin: 3px;
+  margin-bottom: 21pt;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.card h5 {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
